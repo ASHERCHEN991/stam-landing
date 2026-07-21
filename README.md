@@ -10,6 +10,12 @@ python3 -m http.server 4173
 
 לאחר מכן פתחו בדפדפן את [http://localhost:4173](http://localhost:4173).
 
+## GitHub Pages
+
+הדף משתמש בנתיבים יחסיים לכל נכסי האתר המקומיים (`./src/` ו-`./assets/`), ולכן עובד גם כאשר הוא מתפרסם תחת נתיב המאגר:
+
+`https://<username>.github.io/stam-landing/`
+
 ## התאמות לפני פרסום
 
 חפשו ב-`index.html` את ערכי ה-placeholder הבאים והחליפו אותם:
