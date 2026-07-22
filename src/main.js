@@ -50,7 +50,7 @@ function switchLanguage() {
   document.documentElement.dir = english ? 'ltr' : 'rtl';
   document.title = english ? 'Keter HaSofer | STAM with integrity and reverence' : 'כתר הסופר | סת״ם בכשרות וביראת שמים';
   document.querySelector('meta[name="description"]').content = english ? 'Professional STAM services for communities, synagogues, and Jewish homes around the world.' : 'שירותי סת״ם מקצועיים לקהילות, בתי כנסת ולקוחות ברחבי העולם.';
-  languageButton.innerHTML = `${english ? 'HE' : 'EN'} <span>↗</span>`;
+  languageButton.innerHTML = `${english ? 'עברית' : 'EN'} <span>↗</span>`;
   languageButton.title = english ? 'Switch to Hebrew' : 'Switch to English';
   languageButton.setAttribute('aria-label', languageButton.title);
 }
